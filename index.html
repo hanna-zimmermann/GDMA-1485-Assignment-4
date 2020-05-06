@@ -9,38 +9,36 @@
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet"	type="text/css" href="css/framework.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	
 </head>
 
 
 <body>
 	
-	<header id="bg-header">
-		<div class="col-sm-12 col-lg-4" id="logo">
-			<h1><i class="fas fa-book-open">Edumark</i></h1>
+	<header class="bg-purple">
+		<div class="col-sm-12 col-lg-4 logo">
+			<h1><i class="fas fa-book-open"><span>Edumark</span></i></h1>
 		</div>
-			<nav class="col-sm-12 col-lg-5">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Courses</a></li>
-					<li><a href="#">Pages</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-			<div>
-           		<div class="col-sm-12 col-lg-3"> 
-					<ul>
-						<li class="fas fa-user">Login</li>
-						<li class="fas fa-phone-alt">+10-378-467-3672</li>
-					</ul>
-				</div>   
-			</div>
+		<nav class="col-sm-12 col-lg-5 stroke">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#courses">Courses</a></li>
+				<li><a href="#pages">Pages</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+        <div class="col-sm-12 col-lg-3"> 
+			<ul>
+				<a href="#"><li class="fas fa-user"><span>Login</span></li></a>
+				<a href="#"><li class="fas fa-phone-alt btn-orange"><span>+10-378-467-3672</span></li></a>
+			</ul>  
+		</div>
 		<div class="wrapper row">
 			<div class="col-sm-12 col-md-6 img-responsive info-ill">
-				<img src="img/bg-header.jpg" alt="null" data-rjs="2" width="100%">
+				<img src="img/bg-header.jpg" alt="" data-rjs="2" width="100%">
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<p>Learn Your Favorite Course From Online</p>
@@ -51,96 +49,200 @@
 	
 	<section class="wrapper row">
 		<div class="col-md-12 col-lg-6">
-			<h2>Over 7000 Tutorials<br>from 20 Courses</h2>
+			<h2 id="home">Over 7000 Tutorials<br>from 20 Courses</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum d nisi ut aliquip ex ea commodo consequat.</p>
-			<p><a href="#">Enroll a Course</a></p>
+			<p class="btn-green"><a href="#">Enroll a Course</a></p>
 		</div>
-		<div class="col-md-4">
-			<div class="circle red">
+	
+		<div id="circle">
+			<div class=" col-sm-12 col-md-4 circle red">
 				<p>20+<br>Courses</p>
 			</div>
-			<div class="circle blue">
+			<div class="col-sm-12 col-md-4 circle blue">
 				<p>7638<br>Courses</p>
 			</div>
-			<div class="circle green">
+			<div class="col-sm-12 col-md-4 circle green">
 				<p>230+<br>Courses</p>
 			</div>
 		</div>
+		
 	</section>
-	<section class="wrapper row">
-    	<header>
-        	<h2>Popular Courses</h2>
+	<section class="wrapper" id="courses">
+    	<header class="col-sm-12">
+			<h2>Popular Courses</h2>
             <p>Your Domain panel is designed for easy-of-use and allows for all aspects of your domains.</p>
        	</header>
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/bg-header.jpg" alt="null" data-rjs="2" width="100%">
+		<div class="row col-sm-12 col-md-6 col-lg-4">
+			<img src="img/person-working.jpg" alt="" data-rjs="2" width="100%">
 			<h3>Photoshop</h3>
 			<h4>Mobile App design step by step from beginner</h4>
-			<div class="col-sm-6">
-				<p><i class="fas fa-star">(4.5)</i></p>
+			<div class="col-sm-4">
+				<p><i class="fas fa-star"><span>(4.5)</span></i></p>
 				<ul>
-					<li>$89.00</li>
+					<li><span>$89.00</span></li>
 					<li>$49</li>
 				</ul>
 			</div>	
 		</div>
 		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/bg-header.jpg" alt="null" data-rjs="2" width="100%">
+			<img src="img/phones.jpg" alt="" data-rjs="2" width="100%">
 			<h3>Adobe XD</h3>
 			<h4>UI/UX desgin with Adobe XD with Anderson</h4>
 			<div class="col-sm-6">
-				<p><i class="fas fa-star">(4.5)</i></p>
+				<p><i class="fas fa-star"><span>(4.5)</span></i></p>
 				<ul>
-					<li>$89.00</li>
+					<li><span>$89.00</span></li>
 					<li>$49</li>
 				</ul>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/bg-header.jpg" alt="null" data-rjs="2" width="100%">
-			<h3>Adobe XD</h3>
-			<h4>UI/UX desgin with Adobe XD with Anderson</h4>
+			<img src="img/wordpress.jpg" alt="" data-rjs="2" width="100%">
+			<h3>Wordpress</h3>
+			<h4>Wordpress theme from scratch</h4>
 			<div class="col-sm-6">
-				<p><i class="fas fa-star">(4.5)</i></p>
+				<p><i class="fas fa-star"><span>(4.5)</span></i></p>
 				<ul>
-					<li>$89.00</li>
+					<li><span>$89.00</span></li>
 					<li>$49</li>
 				</ul>
 			</div>
 		</div>
-		<p><a hrer="#">More Courses</a></p>
+		<div class="col-sm-12">
+			<p><a hrer="#">More Courses</a></p>
+		</div>
 	</section>
 	
-	<img src="img/bg-header.jpg" alt="null" data-rjs="2" width="100%">
-	<div class="wrapper row">
-		<div id="circle-img"></div>
-		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eadds."<br>- Jquileen</p>
+	<div id="quote">
+		<img src="img/women-sitting.jpg" alt="" data-rjs="2" width="100%" id="about">
+		<div class="wrapper row">
+			<img src="img/women-headshot.jpg" alt="" data-rjs="2" width="25%" id="circle-img">
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eadds."<br>- Jquileen</p>
+		</div>
 	</div>
 	
 	<section class="wrapper row">
 		<header>
-			<h2>Our Course Speciality</h2>
+			<h2 id="pages">Our Course Speciality</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</header>
 		<div class="special">
-            <div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <i class="fas fa-gem"></i>
                 <p>Premium Quality</p>
                 <p>Your domain control panel is desinged for eas-of-use <br> and <br> allows for all aspects of</p>
             </div>
-			<div>
+			<div class="col-sm-12 col-md-6 col-lg-3">
                 <i class="fas fa-hand-holding-usd"></i>
+                <p>Premium Quality</p>
+                <p>Your domain control panel is desinged for eas-of-use <br> and <br> allows for all aspects of</p>
+            </div>
+			 <div class="col-sm-12 col-md-6 col-lg-3">
+                <i class="fas fa-cloud"></i> 
+                <p>Premium Quality</p>
+                <p>Your domain control panel is desinged for eas-of-use <br> and <br> allows for all aspects of</p>
+            </div>
+			<div class="col-sm-12 col-md-6 col-lg-3">
+                <i class="fas fa-crown"></i>
                 <p>Premium Quality</p>
                 <p>Your domain control panel is desinged for eas-of-use <br> and <br> allows for all aspects of</p>
             </div>
 		</div>
 	</section>
 	
+	<section class="bg-blue">
+		<div class="wrapper row">
+			<header class="col-sm-12 col-lg-6">
+				<h4>Subscribe Newsletter</h4>
+				<p>Your domain control panel is designed for ease-of-use and allows for all aspects of your life</p>
+				<p>Your domain control panel</p>
+			</header>
+			<form class="col-sm-12 col-lg-6">
+				<ul>
+					<li>
+						<label for="email"></label>
+						<input type="text" name="email" list="email" id="email" placeholder="Email">
+					</li>
+					<li class="btn">
+						<p href="#">Sign Up</p>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+	
+	<section class="wrapper row" id="blog">
+    	<header class="col-sm-12">
+        	<h2>Our Latest Blog</h2>
+       	</header>
+		<div class="row col-sm-12 col-md-6 col-lg-4">
+			<img src="img/meeting.jpg" alt="" data-rjs="2" width="100%">
+			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
+			<h3>Commitment to dedicated Support</h3>
+			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="img/desk.jpg" alt="" data-rjs="2" width="100%">
+			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
+			<h3>Commitment to dedicated Support</h3>
+			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="img/computer.jpg" alt="" data-rjs="2" width="100%">
+			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
+			<h3>Commitment to dedicated Support</h3>
+			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
+		</div> 
+	</section> 
+	<footer class="bg-purple" id="contact">
+		<div class="wrapper row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <p><i class="fas fa-book-open logo">Edumark</i></p>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo magna aliqua. Ut enim ad minim veniam, quis nostrud eorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/explore" target="blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/" targe="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div>
+                    <h4>Cources</h4>
+                    <ul>
+                        <li><a href="#">Wordpress</a></li>
+                        <li><a href="#">Photoshop</a></li>
+                        <li><a href="#">Illustratro</a></li>
+                        <li><a href="#">Adobe XD</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resourches</h4>
+                    <ul>
+                        <li><a href="#">Free Adobe XD</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Address</h4>
+						<ul>
+                   			 <li><a href="https://www.google.com/maps/search/200,+D-block,+Green+lane+USA/@40.3366162,-75.4783323,15z/data=!3m1!4b1" targer="_blank">200, D-block, Green lane USA</a></li>
+                       		 <li><a href="tel:+1 10-378-467-3672">10-378-467-3672</a></li>
+                        	 <li><a href="mailto:edumark@contact.com">edumark@contact.com</a></li>
+						</ul>
+                </div>
+            </div>
+		</div>
+	</footer>
 	
 	
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/retina.js"></script>
+	<script src="js/script.js"></script>
 	
 </body>
 </html>
