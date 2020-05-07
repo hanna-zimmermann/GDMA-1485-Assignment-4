@@ -17,29 +17,31 @@
 <body>
 	
 	<header class="bg-purple">
-		<div class="col-sm-12 col-lg-4 logo">
-			<h1><i class="fas fa-book-open"><span>Edumark</span></i></h1>
-		</div>
-		<nav class="col-sm-12 col-lg-5 stroke">
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#courses">Courses</a></li>
-				<li><a href="#pages">Pages</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#blog">Blog</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-        <div class="col-sm-12 col-lg-3"> 
-			<ul>
-				<a href="#"><li class="fas fa-user"><span>Login</span></li></a>
-				<a href="#"><li class="fas fa-phone-alt btn-orange"><span>+10-378-467-3672</span></li></a>
-			</ul>  
+		<div class="border">
+            <div class="col-sm-12 col-lg-4 logo">
+                <h1><i class="fas fa-book-open"><span>Edumark</span></i></h1>
+            </div>
+            <nav class="col-sm-12 col-lg-5 stroke">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#pages">Pages</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="col-sm-12 col-lg-3"> 
+                <ul>
+					<li><a href="#"><i class="fas fa-user"><span>Login</span></i></a></li>
+                   <li><a href="#"><i class="fas fa-phone-alt btn-orange"><span>+10-378-467-3672</span></i></a></li> 
+                </ul>  
+            </div>
 		</div>
 		<div class="wrapper row">
-			<div class="col-sm-12 col-md-6 img-responsive info-ill">
-				<img src="img/bg-header.jpg" alt="" data-rjs="2" width="100%">
-			</div>
+			
+				<img src="img/bg-header.jpg" alt="" data-rjs="2" width="100" class="col-sm-12 col-md-6 ">
+			
 			<div class="col-sm-12 col-md-6">
 				<p>Learn Your Favorite Course From Online</p>
 				<p class="btn-green"><a href="#">Browse Our Courses</a></p>
@@ -72,10 +74,12 @@
 			<h2>Popular Courses</h2>
             <p>Your Domain panel is designed for easy-of-use and allows for all aspects of your domains.</p>
        	</header>
-		<div class="row col-sm-12 col-md-6 col-lg-4">
-			<img src="img/person-working.jpg" alt="" data-rjs="2" width="100%">
+		<div class="row">
+			<img src="img/person-working.jpg" alt="" data-rjs="2" width="100" class="row col-sm-12 col-md-6 col-lg-4">
+			<div class="col-sm-12 col-md-6 col-lg-4">
 			<h3>Photoshop</h3>
 			<h4>Mobile App design step by step from beginner</h4>
+			</div>
 			<div class="col-sm-4">
 				<p><i class="fas fa-star"><span>(4.5)</span></i></p>
 				<ul>
@@ -84,8 +88,8 @@
 				</ul>
 			</div>	
 		</div>
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/phones.jpg" alt="" data-rjs="2" width="100%">
+		<div>
+			<img src="img/phones.jpg" alt="" data-rjs="2" width="100" class="col-sm-12 col-md-6 col-lg-4">
 			<h3>Adobe XD</h3>
 			<h4>UI/UX desgin with Adobe XD with Anderson</h4>
 			<div class="col-sm-6">
@@ -96,8 +100,8 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/wordpress.jpg" alt="" data-rjs="2" width="100%">
+		<div>
+			<img src="img/wordpress.jpg" alt="" data-rjs="2" width="100" class="col-sm-12 col-md-6 col-lg-4">
 			<h3>Wordpress</h3>
 			<h4>Wordpress theme from scratch</h4>
 			<div class="col-sm-6">
@@ -109,16 +113,16 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<p><a hrer="#">More Courses</a></p>
+			<p><a href="#">More Courses</a></p>
 		</div>
 	</section>
 	
-	<div id="quote">
-		<img src="img/women-sitting.jpg" alt="" data-rjs="2" width="100%" id="about">
+	
+		<img src="img/women-sitting.jpg" alt="" data-rjs="2" width="100" id="about">
 		<div class="wrapper row">
-			<img src="img/women-headshot.jpg" alt="" data-rjs="2" width="25%" id="circle-img">
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eadds."<br>- Jquileen</p>
-		</div>
+		<img src="img/women-headshot.jpg" alt="" data-rjs="2" width="25" id="circle-img">
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eadds."<br>- Jquileen</p>
+	
 	</div>
 	
 	<section class="wrapper row">
@@ -161,10 +165,10 @@
 				<ul>
 					<li>
 						<label for="email"></label>
-						<input type="text" name="email" list="email" id="email" placeholder="Email">
+						<input type="text" name="email" id="email" placeholder="Email">
 					</li>
 					<li class="btn">
-						<p href="#">Sign Up</p>
+						<p><a href="#">Sign Up</a></p>
 					</li>
 				</ul>
 			</form>
@@ -175,20 +179,20 @@
     	<header class="col-sm-12">
         	<h2>Our Latest Blog</h2>
        	</header>
-		<div class="row col-sm-12 col-md-6 col-lg-4">
-			<img src="img/meeting.jpg" alt="" data-rjs="2" width="100%">
+		<div >
+			<img src="img/meeting.jpg" alt="" data-rjs="2" width="100" class="row col-sm-12 col-md-6 col-lg-4">
 			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
 			<h3>Commitment to dedicated Support</h3>
 			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
 		</div>
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/desk.jpg" alt="" data-rjs="2" width="100%">
+		<div >
+			<img src="img/desk.jpg" alt="" data-rjs="2" width="100" class="col-sm-12 col-md-6 col-lg-4">
 			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
 			<h3>Commitment to dedicated Support</h3>
 			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
 		</div>
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<img src="img/computer.jpg" alt="" data-rjs="2" width="100%">
+		<div >
+			<img src="img/computer.jpg" alt="" data-rjs="2" width="100" class="col-sm-12 col-md-6 col-lg-4">
 			<p>12 Jun, 2019 in <a href="#">Design Tips</a></p>
 			<h3>Commitment to dedicated Support</h3>
 			<h4>Firmament morning sixth subdue darkness creeping gathered divide.</h4>
@@ -197,12 +201,12 @@
 	<footer class="bg-purple" id="contact">
 		<div class="wrapper row">
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <p><i class="fas fa-book-open logo">Edumark</i></p>
+				<p><i class="fas fa-book-open logo"><span>Edumark</span></i></p>
                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo magna aliqua. Ut enim ad minim veniam, quis nostrud eorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                 <ul>
                     <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://twitter.com/explore" target="blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/" targe="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
@@ -229,8 +233,8 @@
                 <div>
                     <h4>Address</h4>
 						<ul>
-                   			 <li><a href="https://www.google.com/maps/search/200,+D-block,+Green+lane+USA/@40.3366162,-75.4783323,15z/data=!3m1!4b1" targer="_blank">200, D-block, Green lane USA</a></li>
-                       		 <li><a href="tel:+1 10-378-467-3672">10-378-467-3672</a></li>
+                   			 <li><a href="https://www.google.com/maps/search/200,+D-block,+Green+lane+USA/@40.3366162,-75.4783323,15z/data=!3m1!4b1" target="_blank">200, D-block, Green lane USA</a></li>
+                       		 <li><a href="tel:+110378-467-3672">10-378-467-3672</a></li>
                         	 <li><a href="mailto:edumark@contact.com">edumark@contact.com</a></li>
 						</ul>
                 </div>

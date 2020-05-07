@@ -78,7 +78,7 @@ footer ul a, .circle p, h2~p, .special div p~p, #blog h4, #courses span{
 	color: #ADADAD;
 }
 
-h1, ul, header div:last-child p:first-child, .btn-green, #circle-img~p{
+h1, ul, header div:last-child p:first-child, .btn-green, #circle-img~p, .circle p{
 	text-align: center;
 }
 
@@ -123,6 +123,7 @@ h4 {
 
 @media screen and (min-width: 768px) {
 	
+	
 
 
 	
@@ -134,7 +135,7 @@ h4 {
 		margin-top: 25px;
 	}
 	
-	.logo {
+	.border {
 	border-bottom: solid 2px #F4F4F4;
 	wdith: 100%;
 	}
@@ -263,12 +264,6 @@ nav.stroke ul li a:hover:after {
 	border-radius: 50%;
 }
 
-#quote {
-	position: relative;
-	top: 0px;
-	left: 0px;
-	
-}
 
 
 #circle-img{
@@ -288,12 +283,11 @@ nav.stroke ul li a:hover:after {
 
 .special {
 		text-align: center;
-		
 	}
 
 .special div {
 	border: solid 1px #ADADAD;;
-	padding: 20px;
+	padding: 15px;
 	font-size: 15px;
 }
 
@@ -339,7 +333,6 @@ nav.stroke ul li a:hover:after {
 	}
 	
 	.circle p {
-		text-align: center;
 		position: relative;
 		top: 40%;
 		left: 0px;
@@ -347,14 +340,14 @@ nav.stroke ul li a:hover:after {
 	
 	#circle-img{
 	position: absolute;
-	top: 1900px;
+	top: 2350px;
 	left: 36%;
 }
 
 #circle-img~p {
 	position: absolute;
-	top: 3000px;
-	left: 0px;
+	top: 2550px;
+	left: 250px;
 }
 	
 
